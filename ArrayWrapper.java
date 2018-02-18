@@ -92,13 +92,13 @@ public class ArrayWrapper {
     }
 
     public int max(){
-        sort();
+        arr.sort();
         return arr[arr.length-1];
     }
 
 
     public int min(){
-        sort();
+        arr.sort();
         return arr[0];
     }
 
